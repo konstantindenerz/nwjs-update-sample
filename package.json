@@ -1,0 +1,21 @@
+{
+  "name": "training-nw-update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "toolbar": true,
+    "frame": true,
+    "width": 660,
+    "height": 500
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "nw-builder": "^2.0.2"
+  }
+}

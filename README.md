@@ -10,15 +10,10 @@ Install dependencies
 $ npm i
 ```
 
-Install live-server
+Install global dependencies
 
 ```
-$ npm i -g live-server
-```
-
-Start the server that should be used to provide new versions of the current application.
-```
-$ live-server --port=3000 distribution
+$ npm i -g live-server gulp
 ```
 
 Build and publish a new version:
@@ -26,6 +21,11 @@ Build and publish a new version:
 ```
 # Publish the application with given major version
 $ gulp publish:vnext --version=3
+```
+
+Start the server that should be used to provide new versions of the current application.
+```
+$ live-server --port=3000 distribution
 ```
 
 Build and publish a new version

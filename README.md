@@ -10,6 +10,12 @@ Install dependencies
 $ npm i
 ```
 
+Install live-server
+
+```
+$ npm i -g live-server
+```
+
 Start the server that should be used to provide new versions of the current application.
 ```
 $ live-server --port=3000 distribution

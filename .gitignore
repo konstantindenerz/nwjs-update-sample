@@ -2,3 +2,7 @@ build/
 cache/
 node_modules/
 nwjs/package.json
+distribution/
+initial
+
+.DS_Store
